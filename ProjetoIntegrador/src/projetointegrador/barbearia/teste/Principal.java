@@ -11,7 +11,7 @@ public class Principal {
 		Cliente c = new Cliente("nome");
 		c.setRating(10);
 		c.setCodigo(5);
-		c.setNome("nome");
+		c.setNome("nome3");
 		
 		System.out.println(c);
 		
