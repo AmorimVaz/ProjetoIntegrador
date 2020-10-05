@@ -21,7 +21,8 @@
         <property name="connection.pool_size">3</property>
 		
 	<!--*********** Mapeamento das classes/tabelas  ***********-->        
-	<mapping class="projetointegrador.barbearia.basicas.Cliente"/>       
+	<mapping class="projetointegrador.barbearia.basicas.Cliente"/>
+    	<mapping class="projetointegrador.barbearia.basicas.Profissional"/>
         
     </session-factory>
 
