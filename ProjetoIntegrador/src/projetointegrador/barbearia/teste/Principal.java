@@ -1,7 +1,7 @@
 package projetointegrador.barbearia.teste;
 
 import projetointegrador.barbearia.basicas.Cliente;
-import projetointegrador.barbearia.colecoes.Database;
+import projetointegrador.barbearia.colecoes.Functions;
 
 public class Principal {
 
@@ -15,7 +15,7 @@ public class Principal {
 		
 		System.out.println(c);
 		
-		Database.inserirCliente( c );
+		Functions.inserirCliente( c );
 				
 	}
 	

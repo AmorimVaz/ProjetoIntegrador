@@ -18,6 +18,7 @@ import javax.persistence.Id;
  * <p>
  *   
  * @author Fabiano Vaz
+ * @version 1.0
  *
  */
 

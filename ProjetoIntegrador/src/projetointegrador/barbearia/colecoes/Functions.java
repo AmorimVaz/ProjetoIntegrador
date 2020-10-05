@@ -2,9 +2,9 @@ package projetointegrador.barbearia.colecoes;
 
 import projetointegrador.barbearia.basicas.Cliente;
 
-public class Database {
+public class Functions {
 
-	static DaoCliente daoCliente = new DaoCliente();
+	private static DaoCliente daoCliente = new DaoCliente();
 	
 	public static void inserirCliente(Cliente c) {
 		daoCliente.inserirCliente(c);
