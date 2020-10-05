@@ -6,7 +6,7 @@
         <property name="connection.driver_class">org.postgresql.Driver</property>
         <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
 
-        <property name="connection.url">jdbc:postgresql://localhost:5432/postgres</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/postgress</property>
         <property name="connection.username">postgres</property>
         <property name="connection.password">POSTGRES</property>
 
@@ -17,12 +17,11 @@
         <!-- Drop and then re-create schema on SessionFactory build, for testing  -->
         <property name="hbm2ddl.auto">update</property>
 
-	<!-- Use the Hibernate built-in pool for tests. -->
+		<!-- Use the Hibernate built-in pool for tests. -->
         <property name="connection.pool_size">3</property>
 		
-	<!--*********** Mapeamento das classes/tabelas  ***********-->        
-	<mapping class="projetointegrador.barbearia.basicas.Cliente"/>
-    	<mapping class="projetointegrador.barbearia.basicas.Profissional"/>
+		<!--*********** Mapeamento das classes/tabelas  ***********-->        
+		<mapping class="modelo.Pessoa"/>       
         
     </session-factory>
 
